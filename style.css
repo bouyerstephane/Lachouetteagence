@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,15 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+
+#resizing-paragraphe p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#resizing-paragraphe p:nth-child(2) {
+font-size: 14px;
 }
