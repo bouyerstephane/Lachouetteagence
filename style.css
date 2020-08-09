@@ -1115,8 +1115,9 @@ footer ul {
     list-style: none;
 }
 
-#partner h4 {
+footer p {
     font-size: 20px;
+    color: black!important;
 }
 
 #partner a {
