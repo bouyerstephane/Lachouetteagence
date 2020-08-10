@@ -1071,21 +1071,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
-
-
-#resizing-paragraphe p:first-child {
+izing-paragraphe p:first-child {
     font-weight: bold;
     font-size: 20px;
 }
@@ -1100,6 +1086,8 @@ h4 {
 }
 
 #social_icon {
+    display: flex;
+    justify-content: space-around;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -1107,11 +1095,15 @@ h4 {
 blockquote {
     color: #000000;
 }
+#bloc-4-portfolio img{
+    margin: auto;
+}
 
 footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -1129,4 +1121,21 @@ footer p {
 
 #partner a:hover{
     text-decoration: underline
+}
+
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    blockquote{
+        margin-left:10% ;
+    }
 }
