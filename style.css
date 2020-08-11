@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: -1;
 }
 
 .b-parallax {
@@ -818,6 +819,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    z-index: 1;
 }
 
 .bg-lines-h2-bg {
@@ -826,6 +828,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    z-index: -2;
 }
 
 .bg-presentation {
@@ -883,6 +886,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+
 
     .bloc {
         padding-left: constant(safe-area-inset-left);
@@ -1121,6 +1125,10 @@ footer p {
 
 #partner a:hover{
     text-decoration: underline
+}
+
+.page-container{
+    z-index: -3;
 }
 
 
