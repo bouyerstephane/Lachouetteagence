@@ -285,7 +285,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 45px;
 }
 
 .navbar {
@@ -667,7 +667,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 45px;
 }
 
 .hero-bloc-text-sub {
@@ -788,7 +788,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #e06429;
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1113,7 +1113,7 @@ footer ul {
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 28px;
     color: black!important;
 }
 
@@ -1128,10 +1128,9 @@ footer p {
     text-decoration: underline
 }
 
-.page-container{
-    z-index: -3;
+#bloc-6 .container{
+    padding: 100px 0 100px;
 }
-
 
 @media (max-width: 400px) {
     .bloc {
