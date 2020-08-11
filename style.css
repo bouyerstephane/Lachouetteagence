@@ -1128,8 +1128,12 @@ footer p {
     text-decoration: underline
 }
 
+#bloc-5-cta .container{
+    padding: 30px 0;
+}
+
 #bloc-6 .container{
-    padding: 100px 0 100px;
+    padding: 100px 0;
 }
 
 @media (max-width: 400px) {
